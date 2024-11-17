@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500&family=Lora:wght@400;500&family=Poppins:wght@400;600&display=swap");
 
-/* plz subsribe to thapa technical channel 
-          https://www.youtube.com/thapatechnical
-         */
-
 * {
   margin: 0;
   padding: 0;
@@ -37,7 +33,6 @@ a {
 }
 
 img {
-  /* width: 25rem; */
   min-width: 10rem;
   max-height: 30rem;
   margin: 1rem 0;
@@ -53,7 +48,6 @@ img {
 }
 
 .grid {
-  /* width: 100%; */
   display: grid;
   gap: 3rem;
 }
@@ -66,8 +60,6 @@ img {
   width: 25rem;
   max-width: 30rem;
   min-height: 30rem;
-  /* background-color: #fafaff; */
-  /* padding: 2rem; */
   border-radius: 1rem;
 
   display: flex;
@@ -89,7 +81,6 @@ input {
   border: 1px solid var(--border-clr);
   padding: 1rem 2rem;
   font-size: 1.8rem;
-  /* border-color: var(--border-clr); */
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
     rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
   outline: none;
@@ -127,12 +118,10 @@ input {
 .movie-card {
   min-width: 30rem;
   width: 50vw;
-  /* padding: 1rem; */
   background-color: var(--bg-clr);
   display: grid;
   gap: 2rem;
   grid-template-columns: 0.6fr 1fr;
-  /* align-items: center; */
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 2rem;
 }
@@ -148,7 +137,6 @@ figure {
   border-radius: 0;
   border-top-left-radius: 2rem;
   border-bottom-left-radius: 2rem;
-  /* border-radius: 0; */
   max-height: 50rem;
   height: auto;
 }
@@ -177,7 +165,6 @@ a {
   justify-content: center;
   margin-top: 2rem;
   padding: 3.2rem 1rem;
-  /* background-color: var(--text-clr); */
   color: var(--text-clr);
   border: 0.2rem solid var(--text-clr);
   font-size: 1.8rem;
